@@ -1,26 +1,36 @@
 import React from 'react';
+import { Provider } from 'react-redux';
+import { createStore, applyMiddleware } from 'redux';
+import thunk from 'redux-thunk';
+import promise from 'redux-promise';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+
+
+import Home from './components/home';
+import Profile from './components/profile';
+import Skill from './components/skill';
+
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+export default class App extends React.Component {
 
-export default App;
+    constructor(props){
+        super(props);
+        this.state = { cartCount : 0 }
+    }
+
+    render() {
+        return (
+              <>
+                <BrowserRouter>
+                    <Switch>
+                        <Route exact path='/' component={Home} />
+                        <Route exact path='/profile' component={Profile} />
+                        <Route exact path='/skill' component={Skill} />
+                    </Switch>
+                </BrowserRouter>
+              </>
+        );
+    }
+}
