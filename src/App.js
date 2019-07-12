@@ -3,7 +3,7 @@ import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
 import promise from 'redux-promise';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch, HashRouter } from 'react-router-dom';
 
 
 import Home from './components/home';
@@ -23,13 +23,13 @@ export default class App extends React.Component {
     render() {
         return (
               <>
-                <BrowserRouter>
+                <HashRouter>
                     <Switch>
                         <Route exact path='/' component={Home} />
                         <Route exact path='/profile' component={Profile} />
                         <Route exact path='/skill' component={Skill} />
                     </Switch>
-                </BrowserRouter>
+                </HashRouter>
               </>
         );
     }
