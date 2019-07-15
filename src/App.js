@@ -11,6 +11,7 @@ import Skill from './components/skill';
 import Portfolio from './components/portfolio';
 import Service from './components/service';
 import Contact from './components/contact';
+import Navbar from './components/navbar';
 
 import logo from './logo.svg';
 
@@ -23,8 +24,9 @@ export default class App extends React.Component {
 
     render() {
         return (
-              <>
-                <HashRouter>
+              <> 
+                <HashRouter>               
+                <Navbar />
                     <Switch>
                         <Route exact path='/' component={Home} />
                         <Route exact path='/profile' component={Profile} />

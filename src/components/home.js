@@ -14,7 +14,6 @@ class Home extends Component {
 	render() {
 		return (
 			<>
-				<Navbar />
 			    <div className="portfolio-div">
 			        <div className="portfolio">
 			            <div className="no-padding portfolio_container">

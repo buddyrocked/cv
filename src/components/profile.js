@@ -13,8 +13,7 @@ class Profile extends Component {
 
 	render() {
 		return (
-			<>
-				<Navbar />				
+			<>			
 			    <div className="top-bar">
 			        <h1>About Me</h1>
 			        <p><a href="#">Home</a> / About me</p>

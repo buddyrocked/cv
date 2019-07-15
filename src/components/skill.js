@@ -14,7 +14,6 @@ class Skill extends Component {
 	render() {
 		return (
 			<div>
-                <Navbar />
 				Skill Page
 			</div>
 		);

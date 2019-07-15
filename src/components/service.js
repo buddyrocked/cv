@@ -14,8 +14,6 @@ class Service extends Component {
 	render() {
 		return (
 			<>
-			<Navbar />
-
 		    <div className="top-bar">
 		        <h1>services</h1>
 		        <p><a href="#">Home</a> / Services</p>
