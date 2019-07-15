@@ -46,6 +46,21 @@ class Navbar extends Component {
 								Skill
 							</Link>
 						</li>
+						<li>
+			                <Link to="/service">
+								Service
+							</Link>
+						</li>
+						<li>
+			                <Link to="/protfolio">
+								Portfolio
+							</Link>
+						</li>
+						<li>
+			                <Link to="/contact">
+								Contact
+							</Link>
+						</li>
 		                <li className="box-label">Follow me</li>
 
 		                <li className="box-social"><a href="#0"><i className="ion-social-facebook"></i></a></li>
