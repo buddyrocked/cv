@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link, withRouter } from 'react-router-dom';
 import { connect } from 'react-redux';
+import logo from '../logo.svg';
 
 class Navbar extends Component {
 	
@@ -15,39 +16,63 @@ class Navbar extends Component {
 
 	render() {
 		return (
-			<nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-topx">
-				<Link className="navbar-brand" to="/">
-					My App
-				</Link>
-
-				<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-                  <span className="navbar-toggler-icon"></span>
-                </button>
-
-                <div className="collapse navbar-collapse" id="navbarColor01">
-					<ul className="navbar-nav mr-auto">
-						<li className="nav-item active">
-							<Link className="nav-link" to="/">
+			<div className="container-fluid">
+		        <header className="box-header">
+		            <div className="box-logo">
+		                <Link to="/">
+		                	<img src={logo} width="80" alt="Logo" />
+		                </Link>
+		            </div>
+		            <span className="box-primary-nav-trigger">
+		                <span className="box-menu-text">Menu</span><span className="box-menu-icon"></span>
+		            </span>
+		        </header>
+		        <nav>
+		            <ul className="box-primary-nav">
+		                <li className="box-label">About me</li>
+		                <li>
+		                	<Link to="/">
 								Home
 							</Link>
-						</li>
-						<li className="nav-item">
-							<Link className="nav-link" to="/profile">
+		                	<i className="ion-ios-circle-filled color"></i>
+		                </li>
+		                <li>
+		                	<Link to="/profile">
 								Profile
 							</Link>
-						</li>
-						<li className="nav-item">
-							<Link className="nav-link" to="/skill">
+		                </li>
+		                <li>
+			                <Link to="/skill">
 								Skill
 							</Link>
 						</li>
-					</ul>
-					<form className="form-inline my-2 my-lg-0">
-						<input className="form-control mr-sm-2" type="text" placeholder="Search" />
-						<button className="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-					</form>
-                </div>
-			</nav>
+		                <li className="box-label">Follow me</li>
+
+		                <li className="box-social"><a href="#0"><i className="ion-social-facebook"></i></a></li>
+		                <li className="box-social"><a href="#0"><i className="ion-social-instagram-outline"></i></a></li>
+		                <li className="box-social"><a href="#0"><i className="ion-social-twitter"></i></a></li>
+		                <li className="box-social"><a href="#0"><i className="ion-social-dribbble"></i></a></li>
+		            </ul>
+		        </nav>
+
+		        <section className="box-intro">
+		            <div className="table-cell">
+		                <h1 className="box-headline letters rotate-2">
+		                    <span className="box-words-wrapper">
+		                        <b className="is-visible">Magento.</b>
+		                        <b>Yii &nbsp; Framework.</b>
+		                        <b>React &nbsp; JS.</b>
+		                        <b>React &nbsp; Native.</b>
+		                    </span>
+				        </h1>
+		                <h5>everything you need to build your personal portfolio</h5>
+		            </div>
+
+		            <div className="mouse">
+		                <div className="scroll"></div>
+		            </div>
+		        </section>
+		    </div>
 		);	
 	};
 }

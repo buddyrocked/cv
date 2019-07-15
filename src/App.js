@@ -11,7 +11,6 @@ import Profile from './components/profile';
 import Skill from './components/skill';
 
 import logo from './logo.svg';
-import './App.css';
 
 export default class App extends React.Component {
 
