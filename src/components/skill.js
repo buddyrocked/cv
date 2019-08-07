@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import Navbar from './navbar';
-
 
 class Skill extends Component {
 

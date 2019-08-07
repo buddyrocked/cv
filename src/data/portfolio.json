@@ -1,4 +1,15 @@
 {
-    "title" : "Ini Portfolio",
-    "content" : "Ini Content"
+    "title" : "Portfolio Page",
+    "content" : {
+		    		"portfolios" : [
+		    			{"name":"php", "year":"2009", "status":"expert"},
+		    			{"name":"php", "year":"2009", "status":"expert"},
+		    			{"name":"php", "year":"2009", "status":"expert"},
+		    		],
+		    		"experiences" : [
+		    			{"name":"PT Javan IT Services", "start":"2009", "end":"2011"},
+		    			{"name":"PT Javan IT Services", "start":"2009", "end":"2011"},
+		    			{"name":"PT Javan IT Services", "start":"2009", "end":"2011"},
+		    		]
+   				}
 }

@@ -1,4 +1,25 @@
 {
-    "title" : "Ini Home",
-    "content" : "Ini Content"
+    "title" : "Skill Page",
+    "content" : {
+    				"skills" : [
+		    			{
+		    				"language":"php", 
+		    				"score":"100", 
+		    				"status":"expert",
+		    				"description" : "This is description"
+		    			},
+		    			{
+		    				"language":"html", 
+		    				"score":"100", 
+		    				"status":"expert",
+		    				"description" : "This is description"
+		    			},
+		    			{
+		    				"language":"css", 
+		    				"score":"100", 
+		    				"status":"expert",
+		    				"description" : "This is description"
+		    			},
+		    		],
+    			}
 }

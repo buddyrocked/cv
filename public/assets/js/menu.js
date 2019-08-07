@@ -46,6 +46,8 @@ jQuery(document).ready(function($){
 	});
 
 	$('.box-primary-nav > li > a').on('click', function(){
+		$('.box-menu-icon').toggleClass('is-clicked'); 
+		$('.box-header').toggleClass('menu-is-open');
 		$('.box-primary-nav').removeClass('is-visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',function(){
 			$('body').removeClass('overflow-hidden');
 		});

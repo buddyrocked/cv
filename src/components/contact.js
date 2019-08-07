@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import Navbar from './navbar';
-
 
 class Contact extends Component {
 
@@ -19,7 +17,7 @@ class Contact extends Component {
 		                
 		                <div className="col-md-3 col-sm-6  fashion logo">
 		                    <a href="single-project.html" className="portfolio_item">
-		                        <img src="http://placehold.it/1000x1000" alt="image" className="img-responsive" />
+		                        <img src="http://placehold.it/1000x1000" alt="image-alt" className="img-responsive" />
 		                        <div className="portfolio_item_hover">
 		                            <div className="portfolio-border clearfix">
 		                                <div className="item_info">
@@ -35,7 +33,7 @@ class Contact extends Component {
 		                
 		                <div className="col-md-3 col-sm-6 ads graphics">
 		                    <a href="single-project.html" className="portfolio_item">
-		                        <img src="http://placehold.it/1000x1000" alt="image" className="img-responsive" />
+		                        <img src="http://placehold.it/1000x1000" alt="image-alt" className="img-responsive" />
 		                        <div className="portfolio_item_hover">
 		                            <div className="portfolio-border clearfix">
 		                                <div className="item_info">
@@ -51,7 +49,7 @@ class Contact extends Component {
 		                
 		                <div className="col-md-6 col-sm-12 photography">
 		                    <a href="single-project.html" className="portfolio_item">
-		                        <img src="http://placehold.it/1000x1000" alt="image" className="img-responsive" />
+		                        <img src="http://placehold.it/1000x1000" alt="image-alt" className="img-responsive" />
 		                        <div className="portfolio_item_hover">
 		                            <div className="portfolio-border clearfix">
 		                                <div className="item_info">
@@ -67,7 +65,7 @@ class Contact extends Component {
 		                
 		                <div className="col-md-3 col-sm-6 fashion ads">
 		                    <a href="single-project.html" className="portfolio_item">
-		                        <img src="http://placehold.it/1000x1000" alt="image" className="img-responsive" />
+		                        <img src="http://placehold.it/1000x1000" alt="image-alt" className="img-responsive" />
 		                        <div className="portfolio_item_hover">
 		                            <div className="portfolio-border clearfix">
 		                                <div className="item_info">
@@ -83,7 +81,7 @@ class Contact extends Component {
 		                
 		                <div className="col-md-3 col-sm-6 graphics ads">
 		                    <a href="single-project.html" className="portfolio_item">
-		                        <img src="http://placehold.it/1000x1000" alt="image" className="img-responsive" />
+		                        <img src="http://placehold.it/1000x1000" alt="image-alt" className="img-responsive" />
 		                        <div className="portfolio_item_hover">
 		                            <div className="portfolio-border clearfix">
 		                                <div className="item_info">
@@ -99,7 +97,7 @@ class Contact extends Component {
 		                
 		                <div className="col-md-6 col-sm-12 photography">
 		                    <a href="single-project.html" className="portfolio_item">
-		                        <img src="http://placehold.it/1000x1000" alt="image" className="img-responsive" />
+		                        <img src="http://placehold.it/1000x1000" alt="image-alt" className="img-responsive" />
 		                        <div className="portfolio_item_hover">
 		                            <div className="portfolio-border clearfix">
 		                                <div className="item_info">
@@ -115,7 +113,7 @@ class Contact extends Component {
 		                
 		                <div className="col-md-3 col-sm-6 graphics ads">
 		                    <a href="single-project.html" className="portfolio_item">
-		                        <img src="http://placehold.it/1000x1000" alt="image" className="img-responsive" />
+		                        <img src="http://placehold.it/1000x1000" alt="image-alt" className="img-responsive" />
 		                        <div className="portfolio_item_hover">
 		                            <div className="portfolio-border clearfix">
 		                                <div className="item_info">
@@ -131,7 +129,7 @@ class Contact extends Component {
 		                
 		                <div className="col-md-3 col-sm-6 graphics ads">
 		                    <a href="single-project.html" className="portfolio_item">
-		                        <img src="http://placehold.it/1000x1000" alt="image" className="img-responsive" />
+		                        <img src="http://placehold.it/1000x1000" alt="image-alt" className="img-responsive" />
 		                        <div className="portfolio_item_hover">
 		                            <div className="portfolio-border clearfix">
 		                                <div className="item_info">
@@ -147,7 +145,7 @@ class Contact extends Component {
 		                
 		                <div className="col-md-3 col-sm-6 graphics ads">
 		                    <a href="single-project.html" className="portfolio_item">
-		                        <img src="http://placehold.it/1000x1000" alt="image" className="img-responsive" />
+		                        <img src="http://placehold.it/1000x1000" alt="image-alt" className="img-responsive" />
 		                        <div className="portfolio_item_hover">
 		                            <div className="portfolio-border clearfix">
 		                                <div className="item_info">
@@ -163,7 +161,7 @@ class Contact extends Component {
 		                
 		                <div className="col-md-3 col-sm-6 graphics ads">
 		                    <a href="single-project.html" className="portfolio_item">
-		                        <img src="http://placehold.it/1000x1000" alt="image" className="img-responsive" />
+		                        <img src="http://placehold.it/1000x1000" alt="image-alt" className="img-responsive" />
 		                        <div className="portfolio_item_hover">
 		                            <div className="portfolio-border clearfix">
 		                                <div className="item_info">

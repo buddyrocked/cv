@@ -1,5 +1,4 @@
 import axios from 'axios';
-import { Alert } from 'react';
 
 export const FETCH_HOME         = 'fetch_home';
 export const FETCH_PROFILE      = 'fetch_profile';
@@ -9,7 +8,7 @@ export const CREATE_CONTACT     = 'create_contact';
 
 const ROOT_URL = `https://raw.githubusercontent.com/buddyrocked/cv/master/`;
 
-export function fetchHome() {
+export const fetchHome = () => async(dispatch, getState) => {
     try {
         let request = await axios.get(`${ROOT_URL}src/data/home.json`);
         dispatch({ type: FETCH_HOME, payload: request });
@@ -18,7 +17,7 @@ export function fetchHome() {
     }
 }
 
-export function fetchProfile() {
+export const fetchProfile = () => async(dispatch, getState) => {
     try {
         let request = await axios.get(`${ROOT_URL}src/data/profile.json`);
         dispatch({ type: FETCH_PORTFOLIO, payload: request });
@@ -27,7 +26,7 @@ export function fetchProfile() {
     }
 }
 
-export function fetchSkill() {
+export const fetchSkill = () => async(dispatch, getState) => {
     try {
         let request = await axios.get(`${ROOT_URL}src/data/skill.json`);
         dispatch({ type: FETCH_SKILL, payload: request });
@@ -36,7 +35,7 @@ export function fetchSkill() {
     }
 }
 
-export function fetchPortfolio() {
+export const fetchPortfolio = () => async(dispatch, getState) => {
     try {
         let request = await axios.get(`${ROOT_URL}src/data/portfolio.json`);
         dispatch({ type: FETCH_PORTFOLIO, payload: request });

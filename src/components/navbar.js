@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Link, withRouter } from 'react-router-dom';
-import { connect } from 'react-redux';
+import { Link } from 'react-router-dom';
 import logo from '../logo.svg';
 
 class Navbar extends Component {
@@ -20,7 +19,7 @@ class Navbar extends Component {
 		        <header className="box-header">
 		            <div className="box-logo">
 		                <Link to="/">
-		                	<img src={logo} width="80" alt="Logo" />
+		                	<img src={logo} width="50" alt="Logo" />
 		                </Link>
 		            </div>
 		            <span className="box-primary-nav-trigger">
@@ -31,58 +30,44 @@ class Navbar extends Component {
 		            <ul className="box-primary-nav">
 		                <li className="box-label">About me</li>
 		                <li>
-		                	<Link to="/">
-								Home
-							</Link>
+		                	<Link to="/">Home</Link>
 		                	<i className="ion-ios-circle-filled color"></i>
 		                </li>
 		                <li>
-		                	<Link to="/profile">
-								Profile
-							</Link>
+		                	<Link to="/profile">Profile</Link>
 		                </li>
 		                <li>
-			                <Link to="/skill">
-								Skill
-							</Link>
+			                <Link to="/skill">Skill</Link>
 						</li>
 						<li>
-			                <Link to="/service">
-								Service
-							</Link>
+			                <Link to="/service">Service</Link>
 						</li>
 						<li>
-			                <Link to="/protfolio">
-								Portfolio
-							</Link>
+			                <Link to="/portfolio">Portfolio</Link>
 						</li>
 						<li>
-			                <Link to="/contact">
-								Contact
-							</Link>
+			                <Link to="/contact">Contact</Link>
 						</li>
 		                <li className="box-label">Follow me</li>
-
 		                <li className="box-social"><a href="#0"><i className="ion-social-facebook"></i></a></li>
 		                <li className="box-social"><a href="#0"><i className="ion-social-instagram-outline"></i></a></li>
 		                <li className="box-social"><a href="#0"><i className="ion-social-twitter"></i></a></li>
 		                <li className="box-social"><a href="#0"><i className="ion-social-dribbble"></i></a></li>
 		            </ul>
 		        </nav>
-
 		        <section className="box-intro">
 		            <div className="table-cell">
 		                <h1 className="box-headline letters rotate-2">
 		                    <span className="box-words-wrapper">
-		                        <b className="is-visible">Magento.</b>
-		                        <b>Yii &nbsp; Framework.</b>
-		                        <b>React &nbsp; JS.</b>
-		                        <b>React &nbsp; Native.</b>
+		                        <b className="is-visible">E-Commerce.</b>
+		                        <b>Marketplace.</b>
+		                        <b>Desktop &nbsp; Apps.</b>
+		                        <b>Personal &nbsp; Web.</b>
+		                        <b>Mobile &nbsp; Apps.</b>
 		                    </span>
 				        </h1>
 		                <h5>everything you need to build your personal portfolio</h5>
 		            </div>
-
 		            <div className="mouse">
 		                <div className="scroll"></div>
 		            </div>
