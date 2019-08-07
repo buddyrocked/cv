@@ -23,7 +23,7 @@ class Home extends Component {
     }
 
     renderSkills() {
-    	console.log(this.props);
+    	console.log(this.props.home.title);
     	/*if(_.isEmpty(this.props.home.content.summary.skills)){
 			return (
 				<div className="col-md-12 col-sm-6  fashion logo">
